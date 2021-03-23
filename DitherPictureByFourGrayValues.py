@@ -29,7 +29,7 @@ for cur_row in range(img_row_size):
 cv2.imwrite("B_" + img_name, output_img)
 print("Already dithering %s" % (img_name), "by four gray values.")
 
-# cv2.imshow("Origianl Image", img_gray)
-# cv2.imshow("New Image", output_img)
-# cv2.waitKey(0)
-# cv2.destroyAllWindows()
+cv2.imshow("Origianl Image", img_gray)
+cv2.imshow("New Image", output_img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
